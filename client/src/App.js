@@ -17,7 +17,7 @@ const App = () => {
 				<div className="App">
 					<h1>SpaceX</h1>
 					<Route exact path="/" component={Launches} />
-					<Route exact path="/launch/:flight:number" component={Launch} />
+					<Route exact path="/launch/:flight_number" component={Launch} />
 				</div>
 			</Router>
 		</ApolloProvider>
