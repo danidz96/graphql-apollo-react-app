@@ -1,0 +1,16 @@
+.card {
+	width: 100%;
+}
+.card:not(:nth-last-child(1)) {
+	margin-bottom: 20px;
+}
+
+.missionData {
+	display: flex;
+	align-items: center;
+}
+
+.statusBudget {
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
